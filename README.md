@@ -6,6 +6,8 @@ A list of implemented transforms based on numpy arrays are:
  - Bilateral Filter
  - Median Filter
  - Image Rotation (either randomly sample an angle between two bounds or with a fixed angle)
+ - Random Horizontal Flip
+ - Random Vertical Flip
  - Random Crop 
  - Center Crop
  - Five Crops (4 courners + center)
@@ -14,11 +16,9 @@ A list of implemented transforms based on numpy arrays are:
  - To Tensor
  - rgb2xyz (Change in the color space)
  - xyz2rgb (The opposite change in color space)
- - Random Horizontal Flip
- - Random Vertical Flip
- - Lambda (based on torchvision.transforms.Lambda)
- - Compose (based on torchvision.transforms.Compose)
- - Normalize (based on torchvision.transforms.Normalize)
+ - Lambda (Based on torchvision.transforms.Lambda)
+ - Compose (Based on torchvision.transforms.Compose)
+ - Normalize (Based on torchvision.transforms.Normalize)
 
 ## Usage examples
 
