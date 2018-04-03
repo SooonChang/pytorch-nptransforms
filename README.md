@@ -1,4 +1,4 @@
-# pytorch np-transforms
+# Pytorch np_transforms
 Pytorch transforms based on numpy arrays. I decided to re-write some of the standard pytorch transforms using only numpy operations that allow for High Dynamic Range image manipulation.
 The file `exr_data.py` include some methods for loading HDR images in `exr` format into numpy arrays and writing numpy arrays into `exr` files.
 
@@ -20,9 +20,9 @@ A list of implemented transforms based on numpy arrays are:
  - Compose (based on torchvision.transforms.Compose)
  - Normalize (based on torchvision.transforms.Normalize)
 
-### Usage examples
+## Usage examples
 
-Create a dataset that loads a dataset if hdr images in `.exr` format:
+Create a dataset that loads hdr images in `.exr` format:
 
 ```python
 import exr_data
@@ -39,6 +39,7 @@ trf = np_transforms.Compose([
 data_train = exr_data.exrData(root=os.path.join(ROOT_DIR, 'train'),
                                   loader=exr_data.exr_loader,
                                   transform=trf)
+
                                   
 ```
 
