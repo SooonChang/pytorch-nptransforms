@@ -20,6 +20,16 @@ A list of implemented transforms based on numpy arrays are:
  - Compose (Based on torchvision.transforms.Compose)
  - Normalize (Based on torchvision.transforms.Normalize)
 
+## Dependencies
+
+- `numpy`
+- `torch` http://pytorch.org/
+- `torchvision` http://pytorch.org/
+- `scipy` 
+- `OpenEXR` http://www.excamera.com/sphinx/articles-openexr.html
+
+
+
 ## Usage examples
 
 Create a dataset that loads hdr images in `.exr` format:
