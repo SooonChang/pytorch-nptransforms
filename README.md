@@ -26,7 +26,7 @@ A list of implemented transforms based on numpy arrays are:
 - `torch` http://pytorch.org/
 - `torchvision` http://pytorch.org/
 - `scipy` 
-- `OpenEXR` http://www.excamera.com/sphinx/articles-openexr.html
+- (Only if you want to load/ save HDR images) `OpenEXR` http://www.excamera.com/sphinx/articles-openexr.html
 
 
 
